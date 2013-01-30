@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f93d5b88-6280-4eea-a1cc-83383279902d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/bigos_events_box/admin/event_options/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/bigos_events_box/admin/event_options/_form.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/bigos_events_box/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/bigos_events_box/application.js" />
     </list>
     <ignored path="bigos_events_box.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,8 +33,19 @@
       <file leaf-file-name="_form.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/bigos_events_box/admin/event_options/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="155" selection-start="540" selection-end="540" vertical-scroll-proportion="0.25375938">
+            <state line="9" column="143" selection-start="528" selection-end="540" vertical-scroll-proportion="0.26574802">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/bigos_events_box/application.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="0" selection-start="660" selection-end="660" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -43,15 +54,6 @@
         <entry file="file://$PROJECT_DIR$/app/controllers/bigos_events_box/admin/event_options_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="11" column="45" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="20130128145403_create_bigos_events_box_events.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20130128145403_create_bigos_events_box_events.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="18" selection-start="90" selection-end="113" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -124,7 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/controllers/bigos_events_box/admin/events_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/bigos_events_box/module/_item.html.erb" />
         <option value="$PROJECT_DIR$/test/dummy/log/development.log" />
         <option value="$PROJECT_DIR$/app/views/bigos_events_box/module/_index.html.erb" />
@@ -140,6 +141,7 @@
         <option value="$PROJECT_DIR$/app/models/bigos_app/bigos_events_box_element.rb" />
         <option value="$PROJECT_DIR$/app/controllers/bigos_events_box/admin/event_options_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/bigos_events_box/admin/event_options/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/bigos_events_box/application.js" />
       </list>
     </option>
   </component>
@@ -390,6 +392,50 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bigos_events_box" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bigos_events_box" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bigos_events_box" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bigos_events_box" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bigos_events_box" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -720,13 +766,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/bigos_events_box/module/_event_item.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="32" selection-start="186" selection-end="186" vertical-scroll-proportion="-3.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bigos_events_box.gemspec">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="37" selection-start="646" selection-end="646" vertical-scroll-proportion="0.0">
@@ -825,9 +864,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/bigos_events_box/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="660" selection-end="660" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/bigos_events_box/admin/event_options/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="155" selection-start="540" selection-end="540" vertical-scroll-proportion="0.25375938">
+        <state line="9" column="143" selection-start="528" selection-end="540" vertical-scroll-proportion="0.26574802">
           <folding />
         </state>
       </provider>
