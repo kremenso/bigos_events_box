@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f93d5b88-6280-4eea-a1cc-83383279902d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bigos_events_box.gemspec" afterPath="$PROJECT_DIR$/bigos_events_box.gemspec" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/views/bigos_events_box/module/admin/_item.html.erb" afterPath="$PROJECT_DIR$/app/views/bigos_events_box/admin/_item.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/bigos_events_box/controllers/helpers.rb" afterPath="$PROJECT_DIR$/lib/bigos_events_box/controllers/helpers.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/generators/bigos_events_box/install_generator.rb" afterPath="$PROJECT_DIR$/lib/generators/bigos_events_box/install_generator.rb" />
     </list>
     <ignored path="bigos_events_box.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,7 +43,7 @@
         </entry>
       </file>
       <file leaf-file-name="_item.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/bigos_events_box/module/admin/_item.html.erb">
+        <entry file="file://$PROJECT_DIR$/app/views/bigos_events_box/admin/_item.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="12" selection-start="12" selection-end="13" vertical-scroll-proportion="-0.0">
               <folding />
@@ -69,16 +72,16 @@
       <file leaf-file-name="helpers.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/bigos_events_box/controllers/helpers.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="8" selection-start="768" selection-end="768" vertical-scroll-proportion="0.0">
+            <state line="23" column="210" selection-start="996" selection-end="996" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="install_generator.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="install_generator.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/generators/bigos_events_box/install_generator.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="103" selection-start="939" selection-end="939" vertical-scroll-proportion="0.0">
+            <state line="18" column="53" selection-start="820" selection-end="820" vertical-scroll-proportion="0.4745167">
               <folding />
             </state>
           </provider>
@@ -93,7 +96,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -133,13 +136,13 @@
         <option value="$PROJECT_DIR$/app/controllers/bigos_events_box/admin/events_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/bigos_events_box/module/_item.html.erb" />
         <option value="$PROJECT_DIR$/test/dummy/log/development.log" />
-        <option value="$PROJECT_DIR$/lib/bigos_events_box/controllers/helpers.rb" />
         <option value="$PROJECT_DIR$/app/models/bigos_app/bigos_events_box_element.rb" />
         <option value="$PROJECT_DIR$/app/views/bigos_events_box/module/_index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/bigos_events_box/_item.html.erb" />
         <option value="$PROJECT_DIR$/app/views/bigos_events_box/module/admin/_item.html.erb" />
-        <option value="$PROJECT_DIR$/lib/generators/bigos_events_box/install_generator.rb" />
         <option value="$PROJECT_DIR$/bigos_events_box.gemspec" />
+        <option value="$PROJECT_DIR$/lib/bigos_events_box/controllers/helpers.rb" />
+        <option value="$PROJECT_DIR$/lib/generators/bigos_events_box/install_generator.rb" />
       </list>
     </option>
   </component>
@@ -390,6 +393,72 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bigos_events_box" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bigos_events_box" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bigos_events_box" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bigos_events_box" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bigos_events_box" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bigos_events_box" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bigos_events_box" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bigos_events_box" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -448,6 +517,7 @@
       <recent name="$PROJECT_DIR$/app/views/bigos_events_box/event_options" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/views/bigos_events_box/admin" />
       <recent name="$PROJECT_DIR$/app/controllers/bigos_events_box/admin" />
       <recent name="$PROJECT_DIR$/app/views/bigos_events_box/events/admin" />
     </key>
@@ -800,13 +870,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/bigos_events_box/controllers/helpers.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="8" selection-start="768" selection-end="768" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/bigos_app/bigos_events_box_element.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="29" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
@@ -842,16 +905,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/bigos_events_box/module/admin/_item.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/bigos_events_box/admin/_item.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="12" selection-start="12" selection-end="13" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generators/bigos_events_box/install_generator.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="103" selection-start="939" selection-end="939" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -866,6 +922,20 @@
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/bigos_events_box/controllers/helpers.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="210" selection-start="996" selection-end="996" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/generators/bigos_events_box/install_generator.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="53" selection-start="820" selection-end="820" vertical-scroll-proportion="0.4745167">
           <folding />
         </state>
       </provider>
