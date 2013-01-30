@@ -10,7 +10,7 @@ module BigosEventsBox
 
       respond_to do |format|
         format.html { redirect_to bigos_events_box.edit_admin_event_path @event_id }
-      end
+      end unless request.xhr?
     end
 
   end
