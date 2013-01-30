@@ -1,6 +1,8 @@
 module BigosApp
   class BigosEventsBoxElement < PageElement
 
+    has_many :events, :class_name => "BigosEventsBox::Event"
+
     def self.class_name
       "Events module"
     end

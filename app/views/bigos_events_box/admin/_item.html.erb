@@ -1,1 +1,4 @@
-<%= bigos_events_admin_widget %>
+SIMPLE FIELDS FOR
+<%= pe.simple_fields_for :events do |e|%>
+    <%= e.input :name %>
+<% end %>

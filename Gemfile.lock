@@ -15,7 +15,7 @@ PATH
       cocoon
       fog
       jquery-rails
-      rails (~> 3.2.11)
+      rails (~> 3.2.9)
       rmagick
       simple_form
 
