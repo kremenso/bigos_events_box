@@ -3,6 +3,8 @@ module BigosApp
 
     has_many :events, :class_name => "BigosEventsBox::Event"
 
+    accepts_nested_attributes_for :events
+
     def self.class_name
       "Events module"
     end
