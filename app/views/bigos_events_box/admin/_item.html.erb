@@ -3,7 +3,7 @@
   <%= pe.simple_fields_for :events do |f| %>
     <%= field_set_tag (f.object.name || "Event") do %>
       <%= f.input :name %>
-      <%= f.input :image %>
+      <%= f.input :image, as: "file", :hint => f.object.try(:image).try(:blank?) ? "" : f.template.image_tag(f.object.try(:image).try(:url, :thumb))  %>
       <div id="event_options">
         <%= f.simple_fields_for :event_options do |eo| %>
           <%= render partial: "/bigos_events_box/admin/event_options/form", locals: {f:eo, hide_link: true} %>
