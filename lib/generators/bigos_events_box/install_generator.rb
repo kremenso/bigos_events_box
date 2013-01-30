@@ -13,10 +13,11 @@ module BigosEventsBox
       end
 
       def create_settings
-        Setting["#{BigosEventsBox.name}_access_key_id"] = "Access key id"
-        Setting["#{BigosEventsBox.name}_secret_access_key"] = "Secret access key"
-        Setting["#{BigosEventsBox.name}_uploads_bucket_development_name"] = "Uploads bucket development name"
-        Setting["#{BigosEventsBox.name}_uploads_bucket_production_name"] = "Uploads bucket production name"
+        Setting["#{BigosEventsBox.name}.access_key_id"] = "Access key id"
+        Setting["#{BigosEventsBox.name}.secret_access_key"] = "Secret access key"
+        Setting["#{BigosEventsBox.name}.uploads_bucket_development_name"] = "Uploads bucket development name"
+        Setting["#{BigosEventsBox.name}.uploads_bucket_production_name"] = "Uploads bucket production name"
+        BigosApp::InstalledModule.create(name: BigosEventsBox.name, page_element: BigosApp::BigosEventsBoxElement.name)
       end
 
     end
