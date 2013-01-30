@@ -1,4 +1,3 @@
-SIMPLE FIELDS FOR
-<%= pe.simple_fields_for :events do |e|%>
-    <%= e.input :name %>
-<% end %>
+<div class="nested-fields">
+  <%= link_to_add_association 'Add new event', pe, :products, :partial => "bigos_events_box/admin/events/_item_form", "data-association-insertion-method" => "after", :class => "small button" %>
+</div>
