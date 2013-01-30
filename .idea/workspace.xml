@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f93d5b88-6280-4eea-a1cc-83383279902d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/bigos_events_box/admin/event_options_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/bigos_events_box/admin/event_options_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/bigos_events_box/admin/event_options/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/bigos_events_box/admin/event_options/_form.html.erb" />
     </list>
     <ignored path="bigos_events_box.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,19 +30,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_form.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/bigos_events_box/admin/event_options/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="82" selection-start="605" selection-end="605" vertical-scroll-proportion="-7.5">
+            <state line="9" column="155" selection-start="540" selection-end="540" vertical-scroll-proportion="0.25375938">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="event_options_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="event_options_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/bigos_events_box/admin/event_options_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="45" selection-start="338" selection-end="338" vertical-scroll-proportion="0.28998244">
+            <state line="11" column="45" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -138,8 +138,8 @@
         <option value="$PROJECT_DIR$/app/views/bigos_events_box/admin/events/_item_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/bigos_events_box/admin/_item.html.erb" />
         <option value="$PROJECT_DIR$/app/models/bigos_app/bigos_events_box_element.rb" />
-        <option value="$PROJECT_DIR$/app/views/bigos_events_box/admin/event_options/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/bigos_events_box/admin/event_options_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/bigos_events_box/admin/event_options/_form.html.erb" />
       </list>
     </option>
   </component>
@@ -811,6 +811,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/bigos_events_box/admin/event_options_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="45" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/bigos_app/bigos_events_box_element.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="73" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
@@ -820,14 +827,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/bigos_events_box/admin/event_options/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="82" selection-start="605" selection-end="605" vertical-scroll-proportion="-7.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/bigos_events_box/admin/event_options_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="45" selection-start="338" selection-end="338" vertical-scroll-proportion="0.28998244">
+        <state line="9" column="155" selection-start="540" selection-end="540" vertical-scroll-proportion="0.25375938">
           <folding />
         </state>
       </provider>

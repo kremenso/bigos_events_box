@@ -7,7 +7,7 @@
     <% unless hide_link %>
       <%= link_to_remove_association "Remove event option", f, :class => "alert small button" %>
     <% else %>
-      <%= link_to "Remove event option", bigos_events_box.admin_event_option_path(f.object), :method => :delete, :class => "alert small button remove_fields dynamic", :remote => "true" %>
+      <%= link_to "Remove event option", bigos_events_box.admin_event_option_path(f.object), :method => :delete, :class => "alert small button remove_exist", :remote => "true" %>
     <% end %>
   <% end %>
 </div>
