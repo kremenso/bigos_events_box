@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f93d5b88-6280-4eea-a1cc-83383279902d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/bigos_events_box/admin/_item.html.erb" afterPath="$PROJECT_DIR$/app/views/bigos_events_box/admin/_item.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/bigos_events_box/admin/events/_item_form.html.erb" afterPath="$PROJECT_DIR$/app/views/bigos_events_box/admin/events/_item_form.html.erb" />
     </list>
     <ignored path="bigos_events_box.iws" />
@@ -75,19 +76,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_item.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_item.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/bigos_events_box/admin/_item.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="49" selection-start="227" selection-end="227" vertical-scroll-proportion="-1.875">
+            <state line="4" column="9" selection-start="105" selection-end="105" vertical-scroll-proportion="0.11278196">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_item_form.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_item_form.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/bigos_events_box/admin/events/_item_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="7" selection-start="295" selection-end="295" vertical-scroll-proportion="0.19736843">
+            <state line="0" column="0" selection-start="0" selection-end="515" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -138,8 +139,8 @@
         <option value="$PROJECT_DIR$/app/controllers/bigos_events_box/application_controller.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130128145403_create_bigos_events_box_events.rb" />
         <option value="$PROJECT_DIR$/app/models/bigos_app/bigos_events_box_element.rb" />
-        <option value="$PROJECT_DIR$/app/views/bigos_events_box/admin/_item.html.erb" />
         <option value="$PROJECT_DIR$/app/views/bigos_events_box/admin/events/_item_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/bigos_events_box/admin/_item.html.erb" />
       </list>
     </option>
   </component>
@@ -206,24 +207,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bigos_events_box" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bigos_events_box" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -648,16 +631,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/bigos_events_box/admin/_item.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/bigos_events_box/admin/events/_item_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="49" selection-start="227" selection-end="227" vertical-scroll-proportion="-1.875">
+        <state line="0" column="0" selection-start="0" selection-end="515" vertical-scroll-proportion="-0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/bigos_events_box/admin/events/_item_form.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/bigos_events_box/admin/_item.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="7" selection-start="295" selection-end="295" vertical-scroll-proportion="0.19736843">
+        <state line="4" column="9" selection-start="105" selection-end="105" vertical-scroll-proportion="0.11278196">
           <folding />
         </state>
       </provider>

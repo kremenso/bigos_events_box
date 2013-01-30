@@ -1,3 +1,14 @@
 <div class="nested-fields">
-  <%= link_to_add_association 'Add new event', pe, :events, :partial => "/bigos_events_box/admin/events/item_form", "data-association-insertion-method" => "after", :class => "small button" %>
+
+  <%= simple_form_for :events do |f| %>
+      <%= f.input :name %>
+      <%= f.input :image %>
+      <div id="event_options">
+        <%# f.simple_fields_for :event_options do |eo| %>
+        <%# render partial: "/bigos_events_box/admin/event_options/form", locals: {f:eo, hide_link: true} %>
+        <%# end %>
+        <%# link_to_add_association 'Add new event options', f, :event_options, :partial => "bigos_events_box/admin/event_options/form", "data-association-insertion-method" => "after", :class => "small button" %>
+      </div>
+      <% end %>
+    <%= link_to_add_association 'Add new event', pe, :events, :partial => "/bigos_events_box/admin/events/item_form", "data-association-insertion-method" => "after", :class => "small button" %>
 </div>
