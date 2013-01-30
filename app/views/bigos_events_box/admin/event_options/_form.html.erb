@@ -1,5 +1,5 @@
 <div class="nested-fields">
-  <%= field_set_tag "Event Option" do %>
+  <%= field_set_tag (f.object.name || "Event Option") do %>
     <%= f.input :name %>
     <%= f.input :description, :input_html=>{:class => "tinymce", :rows => 40, :cols => 220}  %>
     <%= f.input :price %>

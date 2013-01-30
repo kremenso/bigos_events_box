@@ -1,4 +1,5 @@
-<%= pe.simple_fields_for :events do |f| %>
+<div>
+  <%= pe.simple_fields_for :events do |f| %>
   <%= field_set_tag (f.object.name || "Event") do %>
     <%= f.input :name %>
     <%= f.input :image %>
@@ -10,4 +11,5 @@
     </div>
     <% end %>
   <% end %>
-<%= link_to_add_association 'Add new event', pe, :events, :partial => "/bigos_events_box/admin/events/item_simpleform", "data-association-insertion-method" => "after", :class => "small button" %>
+  <%= link_to_add_association 'Add new event', pe, :events, :partial => "/bigos_events_box/admin/events/item_simpleform", "data-association-insertion-method" => "after", :class => "small button" %>
+</div>
