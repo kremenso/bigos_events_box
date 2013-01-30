@@ -11,8 +11,6 @@ module BigosEventsBox
 
       def bigos_events_admin_widget
         load_settings
-        @events = Event.all
-        render :template => "bigos_events_box/admin/events/index"
       end
 
       def load_settings
