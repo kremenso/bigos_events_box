@@ -1,6 +1,4 @@
-<div class="nested-fields">
-
-  <%= simple_form_for :events do |f| %>
+  <%= pe.simple_form_for :events do |f| %>
       <%= f.input :name %>
       <%= f.input :image %>
       <div id="event_options">
@@ -11,4 +9,3 @@
       </div>
       <% end %>
     <%= link_to_add_association 'Add new event', pe, :events, :partial => "/bigos_events_box/admin/events/item_form", "data-association-insertion-method" => "after", :class => "small button" %>
-</div>
