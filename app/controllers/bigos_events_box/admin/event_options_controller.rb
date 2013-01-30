@@ -8,11 +8,7 @@ module BigosEventsBox
       @event_id = @eo.event_id
       @eo.destroy
 
-      if request.xhr?
-        render :text => "Event Option removed"
-      else
-        redirect_to bigos_events_box.edit_admin_event_path @event_id
-      end
+      redirect_to request.referer
     end
 
   end
