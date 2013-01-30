@@ -45,9 +45,7 @@ module BigosEventsBox
       @event = BigosEventsBox::Event.find(params[:id])
       @event.destroy
 
-      respond_to do |format|
-        format.html { redirect_to bigos_events_box.admin_events_path }
-      end
+      redirect_to request.referer
     end
 
   end

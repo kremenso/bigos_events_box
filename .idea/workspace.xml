@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f93d5b88-6280-4eea-a1cc-83383279902d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/bigos_events_box/admin/events/_form.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/bigos_events_box/admin/events/edit.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/bigos_events_box/admin/events/index.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/bigos_events_box/admin/events/new.html.erb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/bigos_events_box/admin/events_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/bigos_events_box/admin/events_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/bigos_events_box/admin/_item.html.erb" afterPath="$PROJECT_DIR$/app/views/bigos_events_box/admin/_item.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/bigos_events_box/controllers/helpers.rb" afterPath="$PROJECT_DIR$/lib/bigos_events_box/controllers/helpers.rb" />
     </list>
     <ignored path="bigos_events_box.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,7 +25,7 @@
       <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/bigos_events_box/admin/event_options/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="52" selection-start="80" selection-end="80" vertical-scroll-proportion="-0.625">
+            <state line="9" column="159" selection-start="409" selection-end="550" vertical-scroll-proportion="-5.625">
               <folding />
             </state>
           </provider>
@@ -47,25 +43,25 @@
       <file leaf-file-name="event_options_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/bigos_events_box/admin/event_options_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="18" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0">
+            <state line="10" column="36" selection-start="277" selection-end="304" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_item.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="events_controller.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/bigos_events_box/admin/events_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="47" column="33" selection-start="1122" selection-end="1122" vertical-scroll-proportion="0.6964587">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_item.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/bigos_events_box/admin/_item.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="29" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_item_simpleform.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/bigos_events_box/admin/events/_item_simpleform.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="5" selection-start="468" selection-end="468" vertical-scroll-proportion="-5.625">
+            <state line="12" column="108" selection-start="746" selection-end="746" vertical-scroll-proportion="-7.5">
               <folding />
             </state>
           </provider>
@@ -102,7 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/test/dummy/log/development.log" />
         <option value="$PROJECT_DIR$/app/views/bigos_events_box/module/_index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/bigos_events_box/_item.html.erb" />
         <option value="$PROJECT_DIR$/app/views/bigos_events_box/module/admin/_item.html.erb" />
@@ -118,6 +113,7 @@
         <option value="$PROJECT_DIR$/app/views/bigos_events_box/admin/event_options/_form.html.erb" />
         <option value="$PROJECT_DIR$/lib/bigos_events_box/controllers/helpers.rb" />
         <option value="$PROJECT_DIR$/app/views/bigos_events_box/admin/_item.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/bigos_events_box/admin/events_controller.rb" />
       </list>
     </option>
   </component>
@@ -404,6 +400,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="bigos_events_box" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bigos_events_box" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bigos_events_box" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bigos_events_box" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -764,27 +786,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/bigos_events_box/admin/event_options_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="18" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/bigos_events_box/admin/events/_item_simpleform.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="5" selection-start="468" selection-end="468" vertical-scroll-proportion="-5.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/bigos_events_box/admin/event_options/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="52" selection-start="80" selection-end="80" vertical-scroll-proportion="-0.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/bigos_app/bigos_events_box_element.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="7" selection-start="336" selection-end="357" vertical-scroll-proportion="0.0">
@@ -806,9 +807,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/bigos_events_box/admin/events/_item_simpleform.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="5" selection-start="468" selection-end="468" vertical-scroll-proportion="0.24280575">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/bigos_events_box/admin/event_options/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="159" selection-start="409" selection-end="550" vertical-scroll-proportion="-5.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/bigos_events_box/admin/_item.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="29" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0">
+        <state line="12" column="108" selection-start="746" selection-end="746" vertical-scroll-proportion="-7.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/bigos_events_box/admin/event_options_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="36" selection-start="277" selection-end="304" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/bigos_events_box/admin/events_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="33" selection-start="1122" selection-end="1122" vertical-scroll-proportion="0.6964587">
           <folding />
         </state>
       </provider>
