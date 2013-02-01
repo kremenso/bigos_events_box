@@ -5,7 +5,6 @@ module BigosEventsBox
 
     def destroy
       @eo = BigosEventsBox::EventOption.find(params[:id])
-      @event_id = @eo.event_id
       @eo.destroy
 
       redirect_to request.referer

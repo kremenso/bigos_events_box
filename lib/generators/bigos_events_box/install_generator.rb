@@ -17,7 +17,9 @@ module BigosEventsBox
         Setting["#{BigosEventsBox.name}.carrier_wave_secret_access_key"] = "Secret access key"
         Setting["#{BigosEventsBox.name}.carrier_wave_uploads_bucket_development_name"] = "Uploads bucket development name"
         Setting["#{BigosEventsBox.name}.carrier_wave_uploads_bucket_production_name"] = "Uploads bucket production name"
-        BigosApp::InstalledModule.create(name: BigosEventsBox.name, page_element: BigosApp::BigosEventsBoxElement.name)
+        im = BigosApp::InstalledModule.find_or_create_by_name(BigosEventsBox.name)
+        im.page_element =  BigosApp::BigosEventsBoxElement.name
+        im.save
       end
 
     end

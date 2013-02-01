@@ -1,7 +1,7 @@
 require_dependency "bigos_events_box/application_controller"
 module BigosEventsBox
 
-  class EventsController < ApplicationController
+  class Admin::EventsController < ApplicationController
 
     def index
       @events = BigosEventsBox::Event.all
@@ -17,7 +17,7 @@ module BigosEventsBox
 
       respond_to do |format|
         if @event.save
-          format.html { redirect_to bigos_events_box.events_path }
+          format.html { redirect_to bigos_events_box.admin_events_path }
         else
           format.html { render action: "new" }
         end
@@ -33,7 +33,7 @@ module BigosEventsBox
 
       respond_to do |format|
         if @event.update_attributes(params[:event])
-          format.html { redirect_to bigos_events_box.events_path, notice: 'Event was successfully updated.' }
+          format.html { redirect_to bigos_events_box.admin_events_path, notice: 'Event was successfully updated.' }
         else
           format.html { render action: "edit" }
         end
@@ -45,9 +45,7 @@ module BigosEventsBox
       @event = BigosEventsBox::Event.find(params[:id])
       @event.destroy
 
-      respond_to do |format|
-        format.html { redirect_to bigos_events_box.events_path }
-      end
+      redirect_to request.referer
     end
 
   end
