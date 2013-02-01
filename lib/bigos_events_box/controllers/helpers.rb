@@ -5,8 +5,6 @@ module BigosEventsBox
 
       def bigos_events_box_widget
         load_settings
-        @events = Event.all
-        render :partial=>"bigos_events_box/module/index", :locals=>{:events => @events}
       end
 
       def bigos_events_admin_widget
