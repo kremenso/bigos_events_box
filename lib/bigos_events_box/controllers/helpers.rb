@@ -4,11 +4,11 @@ module BigosEventsBox
       extend ActiveSupport::Concern
 
       def bigos_events_box_widget
-        load_settings
+        #load_settings
       end
 
       def bigos_events_admin_widget
-        load_settings
+        #load_settings
       end
 
       def load_settings
